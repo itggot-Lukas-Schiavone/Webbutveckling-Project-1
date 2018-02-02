@@ -5,7 +5,7 @@ body{
 }
 
 .container {
-    background-color: blue;
+    background-image: url(../img/tropical_island_edit.png);
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -16,7 +16,7 @@ body{
 
 .logo {
     grid-row: 2/4;
-    grid-column: 2/7;
+    grid-column: 3/8;
     background-color: red;
     text-align: center;
 
@@ -24,22 +24,22 @@ body{
 
 .username {
     grid-row: 5/6;
-    grid-column: 2/7;
+    grid-column: 3/8;
 }
 
 .password {
     grid-row: 7/8 ;
-    grid-column: 2/7;
+    grid-column: 3/8;
 }
 
 .signin {
     grid-row: 9/10;
-    grid-column: 2/7;
+    grid-column: 3/8;
 }
 
 .noaccount {
     grid-row: 11/12;
-    grid-column: 2/7
+    grid-column: 3/8;
 }
 
 .menu {
