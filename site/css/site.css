@@ -17,8 +17,11 @@ body{
 .logo {
     grid-row: 2/4;
     grid-column: 3/8;
-    background-color: red;
+    background-image: url(../img/logo.png);
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
 
 }
 
