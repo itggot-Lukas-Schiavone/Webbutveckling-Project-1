@@ -11,18 +11,26 @@
 </head>
 <body>
     <div class="container">
-        <a class="menu" href="#">
-            <div>
-                <i class="material-icons">menu</i>
-            </div>
-        </a> 
-        <div class="logo">
-            <h3>ROMANTISKA KRYSSNINGAR</h3>
+        <div class="menu">
+            <i class="material-icons" onclick="toggleMenu()">close</i>
+            <ul>
+                <li>Våra resemål</li>
+                <li>Mer om oss</li>
+                <li>Romantiska bussresor</li>
+                <li>Kontakta oss</li>
+            </ul>
         </div>
-        <input class="username" type="">
-        <input class="password" type="password">
-        <button class="signin">Sign in</button>
-        <button class="noaccount"> Dont have an account?</button>
+        <main> 
+            <i class="material-icons" onclick="toggleMenu()">menu</i>
+            <div class="logo">
+                <h3>ROMANTISKA KRYSSNINGAR</h3>
+            </div>
+            <input class="username" type="" placeholder="Användarnamn">
+            <input class="password" placeholder="Lösenord"type="password">
+            <button class="signin">Logga in</button>
+            <button class="noaccount">Skapa konto</button>
+        </main>
     </div>
+    <script src="js/menu.js"></script>
 </body>
 </html>
