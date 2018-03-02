@@ -11,6 +11,21 @@ body{
     
 }
 
+
+.menu{
+    width: 80vw;
+    height: 100vh;
+    position: absolute;
+    background: blue;
+    display: none;
+    z-index: 99;
+}
+
+.show {
+    display: block;
+}
+
+
 main {
     display: grid;
     grid-template-columns: repeat(9,1fr);
@@ -21,19 +36,6 @@ main {
 
 i.material-icons {
     font-size: 3em;
-}
-
-
-.menu{
-    width: 80vw;
-    height: 100vh;
-    position: absolute;
-    background: blue;
-    display: none;
-}
-
-.show {
-    display: block;
 }
 
 
