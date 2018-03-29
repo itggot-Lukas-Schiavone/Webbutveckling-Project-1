@@ -45,14 +45,11 @@ main {
     grid-row: 8/12;
 }
 
-.text {
-    
-}
 
 i.material-icons {
     font-size: 3em;
+    color: black;
 }
-
 
 .logo {
     grid-row: 2/4;
@@ -108,25 +105,46 @@ ul li {
     font-size: 25px;
 }
 
+
+
 .karibien {
     grid-row: 3/5;
-    grid-column: 2/9;
+    grid-column: 3/8;
     background-color: blue;
+    border-radius: 65px;
+    text-align: center;
+    padding-top: 30px; 
+    font-size: 20px;
+    border: 2px solid lightblue;
 }
 
 .atlanten {
     grid-row: 6/8;
-    grid-column: 2/9;
+    grid-column: 3/8;
     background-color: blue;
+    border-radius: 65px;
+    text-align: center;
+    padding-top: 30px; 
+    font-size: 20px;
+    border: 2px solid lightblue;
 }
 
 .maldiverna {
     grid-row: 9/11;
-    grid-column: 2/9;
+    grid-column: 3/8;
     background-color: blue;
+    border-radius: 65px;
+    text-align: center;
+    padding-top: 30px; 
+    font-size: 20px;
+    border: 2px solid lightblue;
 }
 
-
+.picture {
+    grid-row: 5/9;
+    grid-column: 1/10;
+    background-image: url(../img/photoshop.jpg);
+}
 
 
 
@@ -148,3 +166,5 @@ ul li {
     }
     
 }
+
+
